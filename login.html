@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <script src="./JS/login.js"></script>
+    <link rel="stylesheet" href="./CSS/login.css">
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <header></header>
+        <div class="main-wrapper">
+            <div></div>
+            <div class="wrapper">
+                <div>
+                    <h2>Member's Registration Form</h2>
+                </div>
+
+                <form action="#" method="#" id="test1">
+                    <div class="names">
+                        <label for="fname lname">Name<span class="core-info">&ast;</span></label>
+                        <div class="info_position">
+                            <input type="text" placeholder="First Name" name="names">
+                            <input type="text" placeholder="Last Name" name="names">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="sex">Sex</label>
+                        <div class="info_position">
+                            <input type="radio" name="sex" value="female" checked>Female
+                            <input type="radio" name="sex" value="male">Male
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <label for="dob">D.O.B<span class="core-info">&ast;</span></label>
+                        <div class="info_position">
+                            <input type="date" name="dob">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="marital-status">Marital Status</label>
+                        <div class="info_position">
+                            <select id="marital-status">
+                                <option value="NULL" selected disabled>Marital Status</option>
+                                 <option value="single">Single</option>
+                                 <option value="married">Married</option>
+                                 <option value="divorce">Divorce</option>
+                                 <option value="deceased">Deceased</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="nationality">Nationality</label>
+                        <div class="info_position">
+                            <select name="nationality">
+                            <option value="NULL" selected disabled>Nationality</option>
+                            <option value="nigeria">Nigeria</option>
+                            <option value="morroco">Morroco</option>
+                            <option value="liberia">Liberia</option>
+                            <option value="ghana">Ghana</option>
+                            <option value="usa">USA</option>
+                            <option value="china">China</option>
+                            <option value="mandagascar">Mandagascar</option>
+                            <option value="ethiopia">Ethiopia</option>
+                            <option value="niger">Niger</option>
+                            <option value="libya">Libya</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="street-address">Address </label>
+                        <div class="info_position">
+                            <input type="text" name="street-address" maxlength="45">
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <label for="email">Email<span class="core-info">&ast;</span></label>
+                        <div class="info_position">
+                            <input type="email" name="email" placeholder="Email Address">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone Number<span class="core-info">&ast;</span></label>
+                        <div class="info_position">
+                            <input type="text" name="phone" placeholder="Phone Number">
+                        </div>
+                    </div>
+
+                    <div>
+
+
+                        <label for="password">Password<span class="core-info">&ast;</span></label>
+                        <div class="info_position">
+                            <input type="password" name="password" placeholder="Password" id="password1">
+
+                            <label for="password2"> Confirm Password<span class="core-info">&ast;</span></label>
+                            <input type="password" name="password2" placeholder="Confirm Password" id="password2">
+                            <br/>
+                        </div>
+                        <p class="info-box">...Sorry!!! Your password does not match</p>
+
+                    </div>
+
+                    <div>
+                        <label for="select-religion">Select your Religion<span class="core-info">&ast;</span> &nbsp; &nbsp;</label>
+                        <div class="info_position">
+                            <select name="select-religion">
+                            <option value="christianity" selected disabled>Select Religion</option>
+                            <option value="christianity">Christianity</option>
+                            <option value="islam">Islam</option>
+                            <option value="budism">Budism</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div> <label for="members_status">Are you a clergy?<span class="core-info">&ast;</span></label> &nbsp; &nbsp;
+                        <div class="info_position">
+                            <input type="radio" name="members_status" value="no" checked>No &nbsp; &nbsp;
+                            <input type="radio" name="members_status" value="yes">Yes
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <p>Already Registered</p>
+                        <button type="button"> Register</button>
+                    </div>
+
+
+
+
+                </form>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <footer id="footer">
+
+
+
+        <div id="footer-elements">
+            <br/>
+            <br/>
+            <p> <span>&copy;</span> Copyright 2020, Christian Non-denominational Network </p>
+            <p>All rights reserved</p>
+        </div>
+
+
+        <div id="footer-elements">
+
+            <p><span>Headquarter</span></p>
+            <hr/>
+            <p> 383 Nwaniba Road, Uyo, Akwa Ibom State, Nigeria, West Africa</p>
+            <p>+234 (0) 9099713466</p>
+            <P><a href="#">Email us</a></P>
+
+        </div>
+        <div id="footer-elements">
+            <p><span>Connect With US</span></p>
+            <hr/>
+            <p>Facebook</p>
+            <p>Twiter</p>
+            <P>Instagram</P>
+        </div>
+    </footer>
+
+    </div>
+</body>
+
+</html>
