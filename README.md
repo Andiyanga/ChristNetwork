@@ -1,4 +1,4 @@
-<img src="./Images/cn.png" style ="display: block;
+<img src="/Images/cn.png" style ="display: block;
     width: 100%;
     height: 90px;" class="banner-img" />
     
