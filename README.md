@@ -1,12 +1,7 @@
-<img src="./Images/cn.png" class="banner-img">
-
-<style>
-.banner-img{
-display: block;
+<img src="./Images/cn.png" style ="display: block;
     width: 100%;
-    height: 90px;
-}
-</style>
+    height: 90px;" class="banner-img" />
+    
 
 # ChristNetwork
 
