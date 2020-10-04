@@ -1,6 +1,6 @@
-<img src="/Images/cn.png" style ="display: block;
+<img src="cn.png" alt="Christ Network Logo" style ="display: block;
     width: 100%;
-    height: 90px;" class="banner-img" />
+    height: 90px;" />
     
 
 # ChristNetwork
